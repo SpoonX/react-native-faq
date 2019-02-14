@@ -118,7 +118,7 @@ An easy way of using a different value for iOS and Android is using `Platform.se
 Here's an example:
 
 ```ts
-import { StyleSheet } from 'react-native';
+import { Platform, StyleSheet } from 'react-native';
 
 export const styles = StyleSheet.create({
   someKey: {
